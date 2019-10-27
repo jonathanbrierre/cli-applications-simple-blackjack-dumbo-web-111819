@@ -41,7 +41,7 @@ def hit?(card_total)
     user_input = get_user_input
   end
   if user_input  == "h"
-    deal_card
+    card_total += deal_card
     
   end 
   if user_input == "s"
